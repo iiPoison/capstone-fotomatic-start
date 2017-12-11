@@ -422,7 +422,6 @@ footer {
 footer .content {
   color: white;
   display: flex;
-  /*font-size: .75rem; /* 12px */
 }
 
 footer .copyright {
