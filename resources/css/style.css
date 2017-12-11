@@ -224,7 +224,7 @@ header .mobile {
   justify-content: space-between;
   padding: 4rem 5%; /* 64px 5% */
   background-color: #f3f3f3;
-
+  height: 46.5625rem;
 }
 
 .feature {
@@ -232,7 +232,7 @@ header .mobile {
   margin: 0 1.1875rem;
   background-color: white;
   height: 39.6875rem;
-  width: auto;
+  /*width: auto;*/
 }
 
 .feature .center .image-container {
@@ -248,8 +248,8 @@ header .mobile {
 }
 
 .feature .center .content {
-  margin-top: 0.5rem;
-  height: 11.6875rem;
+  margin-top: 2.5rem; /*0.5rem;*/
+  height: 11.6875rem; /*высота 187px */
 }
 
 .feature h2 {
@@ -257,6 +257,7 @@ header .mobile {
   font-size: 2.25rem; /* 36px */
   font-weight: bold;
   color: #4a4a4a;
+  line-height: 1.2;
 }
 
 .feature h3 {
@@ -296,6 +297,7 @@ header .mobile {
 #filters-section {
   padding: 4rem 0; /* 64px 0 */
   background-color: #4a4a4a;
+  margin-top: 2.875rem;
   }
 
 #filters-section .content {
