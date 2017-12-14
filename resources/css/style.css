@@ -151,7 +151,6 @@ header .mobile {
   margin: 0 1.1875rem;
   background-color: white;
   height: 39.6875rem;
-  /*width: auto;*/
 }
 
 .feature .center .image-container {
@@ -284,6 +283,10 @@ footer .location {
   .main-content {
     top: 2.5625rem; /*41px*/
   }
+
+  .feature .center .content {
+    margin-top: 0.5rem;
+  }
 }
 
 @media only screen and (max-width: 480px) {
@@ -291,9 +294,16 @@ footer .location {
     display: none;
   }
 
+  header .content {
+    width: auto;
+    padding: 0;
+  }
+
   header .mobile {
-    display: block;
+    display: flex;
     width: 100%;
+    height: 3rem;
+    align-items: center;
   }
 
   header .content {
@@ -316,6 +326,8 @@ footer .location {
     background-color: #9dc20b;
     line-height: 1.6;
     color: white;
+    border-radius: 4px;
+
   }
 }
 
@@ -360,6 +372,11 @@ footer .location {
 @media only screen and (max-width: 480px) {
   #sign-up-section {
     height: 20rem; /* 320px */
+    width: auto;
+  }
+
+  #sign-up-cta {
+    width: auto;
   }
 
   #sign-up-cta h1 {
@@ -369,9 +386,37 @@ footer .location {
   #sign-up-cta h2 {
     font-size: 2rem; /* 32px */
   }
+
+  #features-section {
+    background-color: silver;
+
+  }
+
+  .feature .center .image-container img {
+    margin: 0;
+  }
+
+  .feature .center .content {
+    margin: 0.5rems;
+  }
+
+  .feature .center .content h3 {
+    font-size: 0.875rem;
+    line-height: 1.4rem;
+    margin-bottom: 1.875rem;
+  }
+
 }
 
 @media only screen and (max-width: 890px) {
+  #features-section {
+    height: auto;
+  }
+
+  .feature  {
+    height: auto;
+  }
+
   .feature h2 {
     font-size: 1.125rem; /* 18px */
     line-height: 1.3;
@@ -379,8 +424,17 @@ footer .location {
   }
 
   .feature h3 {
-    font-size: .875rem; /* 14px */
+    font-size: 0.875rem; /* 14px */
     line-height: 1.4;
+  }
+
+  .feature .center .content {
+    height: auto;
+  }
+
+
+  #filters-section {
+    margin-top: 1rem;
   }
 }
 
@@ -392,14 +446,17 @@ footer .location {
   }
 
   .feature {
-    margin: 0;
+    margin: 0.5rem;
     padding: 1.25rem 1rem 0 1rem; /* 20px 16px 0 16px */
     height: auto;
   }
 
   .feature .center .content {
     height: auto;
+    margin-top: 1.5rem;
   }
+
+
 }
 
 @media only screen and (max-width: 760px) {
