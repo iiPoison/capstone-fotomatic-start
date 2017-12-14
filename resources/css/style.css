@@ -8,7 +8,11 @@ html {
 .main-content {
   position: relative;
   top: 5.3125rem; /* To offset for fixed header. */ /* 85px */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
+
 
 .center {
   text-align: center;
@@ -270,6 +274,12 @@ footer .location {
   font-size: 0.75rem; /* 12px */
 
 }
+@media only screen and (max-width: 575px) {
+  .desktop li {
+    padding-left: 1.5rem;
+  }
+}
+
 @media only screen and (max-width: 760px) {
   .main-content {
     top: 2.5625rem; /*41px*/
@@ -378,11 +388,17 @@ footer .location {
   #features-section {
     flex-flow: column;
     padding: 0;
+    height: auto;
   }
 
   .feature {
     margin: 0;
     padding: 1.25rem 1rem 0 1rem; /* 20px 16px 0 16px */
+    height: auto;
+  }
+
+  .feature .center .content {
+    height: auto;
   }
 }
 
