@@ -327,7 +327,6 @@ footer .location {
     line-height: 1.6;
     color: white;
     border-radius: 4px;
-
   }
 }
 
@@ -336,7 +335,6 @@ footer .location {
     align-items: center;
     justify-content: center;
     height: 28rem; /*448px */
-
   }
 
   #sign-up-cta {
@@ -348,7 +346,6 @@ footer .location {
     margin: 0;
     padding: 0
   }
-
 
   #sign-up-cta .content {
     margin-top: 0;
@@ -404,6 +401,25 @@ footer .location {
     font-size: 0.875rem;
     line-height: 1.4rem;
     margin-bottom: 1.875rem;
+  }
+
+  #quotes-section .quote {
+    font-size: 1.5rem;
+    line-height: 1.4;
+  }
+
+  footer {
+    padding: 1.5rem 1.5rem;
+
+  }
+
+  footer .copyright {
+    font-size: 0.625rem;
+  }
+
+  footer .location {
+    font-size: 0.625rem;
+
   }
 
 }
